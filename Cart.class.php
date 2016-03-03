@@ -20,7 +20,6 @@
 	}
 
 	class Cart {
-		private static $_instance;
 		private $_Cart = array();
 		private $_CookieLifeTime = 86400;
 		public function __construct() {
